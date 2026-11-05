@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#28151f">
+  <meta name="description" content="Kavya Suresh Make-up Artistry — bridal, reception, engagement and occasion makeup in Tiruvottiyur, Chennai.">
+  <title>Kavya Suresh | Make-up Artistry</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="announcement">
+    <span>YOUR SPECIAL DAY, YOUR SIGNATURE GLOW</span>
+    <a href="#offers">Explore current offers <span aria-hidden="true">↗</span></a>
+  </div>
+
+  <header class="site-header" id="top">
+    <a class="brand" href="#top" aria-label="Kavya Suresh Make-up Artistry home">
+      <span class="brand-mark">KS</span>
+      <span class="brand-name">KAVYA SURESH<small>MAKE-UP ARTISTRY</small></span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <nav class="main-nav" id="mainNav">
+      <a href="#about">The artist</a>
+      <a href="#services">Services</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#offers">Offers</a>
+      <a href="#reviews">Love notes</a>
+      <a class="nav-cta" href="#booking">Book your date <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-image" role="img" aria-label="Editorial beauty portrait"></div>
+      <div class="hero-shade"></div>
+      <div class="hero-content reveal">
+        <p class="eyebrow light">MAKE EVERY MOMENT A MASTERPIECE</p>
+        <h1>Beauty that feels<br><em>beautifully you.</em></h1>
+        <p class="hero-copy">Thoughtful artistry. Timeless elegance. A look that makes your most meaningful moments unforgettable.</p>
+        <div class="hero-actions">
+          <a class="button button-light" href="#portfolio">Explore the artistry <span>↗</span></a>
+          <a class="text-link light-link" href="#booking">Enquire for your date</a>
+        </div>
+        <div class="hero-note"><span class="note-line"></span> BRIDAL & OCCASION MAKEUP · CHENNAI</div>
+      </div>
+      <div class="hero-side-label">KAVYA SURESH · EST. WITH LOVE</div>
+      <a class="scroll-cue" href="#about"><span></span> SCROLL TO DISCOVER</a>
+    </section>
+
+    <section class="intro section-pad" id="about">
+      <div class="intro-stamp">5+<small>YEARS OF<br>ARTISTRY</small></div>
+      <div class="intro-copy reveal">
+        <p class="eyebrow">A LITTLE ABOUT THE ARTIST</p>
+        <h2>Every face has a story.<br><em>Let's make yours glow.</em></h2>
+        <p class="body-copy">I'm Kavya Suresh, a makeup artist passionate about bringing out the beauty that is already yours. From the first look to the final touch, my approach is personal, detail-driven and designed around you.</p>
+        <p class="body-copy">Whether it's your wedding day, an engagement, a celebration or a special photoshoot, let's create a look that feels confident, comfortable and completely your own.</p>
+        <a class="underlined-link" href="#booking">Let's create your look <span>↗</span></a>
+      </div>
+      <div class="intro-photo reveal">
+        <img src="https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?auto=format&fit=crop&w=900&q=85" alt="Beauty editorial portrait placeholder">
+        <span class="photo-caption">THE ART OF FEELING LIKE YOU</span>
+      </div>
+    </section>
+
+    <section class="services section-pad" id="services">
+      <div class="section-heading reveal">
+        <p class="eyebrow">THE EXPERIENCE</p>
+        <h2>Artistry for every <em>occasion.</em></h2>
+        <p>From intimate celebrations to once-in-a-lifetime moments, find the service that fits your story.</p>
+      </div>
+      <div class="service-grid" id="serviceGrid"></div>
+    </section>
+
+    <section class="portfolio section-pad" id="portfolio">
+      <div class="section-heading light-heading reveal">
+        <p class="eyebrow light">THE SIGNATURE LOOKS</p>
+        <h2>A gallery of <em>possibilities.</em></h2>
+        <p>Explore the moods, details and finishes that inspire the artistry.</p>
+      </div>
+      <div class="gallery-filters" id="galleryFilters">
+        <button class="filter active" data-filter="all">All looks</button>
+        <button class="filter" data-filter="bridal">Bridal</button>
+        <button class="filter" data-filter="glam">Soft glam</button>
+        <button class="filter" data-filter="details">Beauty details</button>
+      </div>
+      <div class="gallery-grid" id="galleryGrid"></div>
+      <p class="gallery-disclaimer">Portfolio preview images are temporary references. Replace them with Kavya's own work before publishing.</p>
+    </section>
+
+    <section class="offers section-pad" id="offers">
+      <div class="offer-top reveal">
+        <div>
+          <p class="eyebrow">A LITTLE SOMETHING SPECIAL</p>
+          <h2>Beautiful moments.<br><em>Beautiful offers.</em></h2>
+          <p class="body-copy">Explore the current packages and find the right experience for your celebration.</p>
+        </div>
+        <div class="offer-countdown">
+          <span class="eyebrow">NEXT OFFER ENDS IN</span>
+          <div class="countdown" id="countdown">
+            <div><strong id="days">00</strong><small>DAYS</small></div>
+            <i>:</i><div><strong id="hours">00</strong><small>HRS</small></div>
+            <i>:</i><div><strong id="minutes">00</strong><small>MIN</small></div>
+            <i>:</i><div><strong id="seconds">00</strong><small>SEC</small></div>
+          </div>
+          <small class="countdown-note" id="countdownNote">Limited-time experiences</small>
+        </div>
+      </div>
+      <div class="offer-grid" id="offerGrid"></div>
+      <p class="offer-footnote">Offers are subject to availability and final confirmation. Please enquire for travel, venue and date-specific details.</p>
+    </section>
+
+    <section class="experience-band">
+      <div class="band-inner reveal">
+        <p class="eyebrow light">THE KAVYA EXPERIENCE</p>
+        <h2>Not a different you.<br><em>Your most radiant you.</em></h2>
+        <a class="button button-light" href="#booking">Let's talk about your day <span>↗</span></a>
+      </div>
+    </section>
+
+    <section class="reviews section-pad" id="reviews">
+      <div class="section-heading reveal">
+        <p class="eyebrow">KIND WORDS</p>
+        <h2>Love notes from <em>our clients.</em></h2>
+        <p>Real experiences deserve to be heard. Client reviews will appear here.</p>
+      </div>
+      <div class="review-placeholder">
+        <span class="quote-mark">“</span>
+        <p>Your words could be the next beautiful part of this story.</p>
+        <span class="review-label">CLIENT TESTIMONIALS COMING SOON</span>
+      </div>
+    </section>
+
+    <section class="booking section-pad" id="booking">
+      <div class="booking-info reveal">
+        <p class="eyebrow light">YOUR DATE, YOUR MOMENT</p>
+        <h2>Let's make it <em>unforgettable.</em></h2>
+        <p>Share a few details about your occasion. We'll help you take the next step towards your perfect look.</p>
+        <div class="contact-detail"><span>CALL / WHATSAPP</span><a href="tel:+919551780086">+91 95517 80086</a></div>
+        <div class="contact-detail"><span>STUDIO LOCATION</span><p>No. 1, Nellikaran Street,<br>Tiruvottiyur, Chennai, Tamil Nadu</p></div>
+        <a class="instagram-link" href="https://www.instagram.com/itskaviyasuresh?cplk=MXRmMjB2eDlmeGV5Mg==" target="_blank" rel="noopener">FOLLOW ON INSTAGRAM ↗</a>
+      </div>
+      <form class="booking-form reveal" id="bookingForm">
+        <div class="form-heading"><span>01 / BOOKING ENQUIRY</span><small>We'll connect with you on WhatsApp</small></div>
+        <label>Your name<input type="text" id="customerName" placeholder="Enter your name" required></label>
+        <div class="form-row">
+          <label>Phone number<input type="tel" id="customerPhone" placeholder="Your contact number" required></label>
+          <label>Event date<input type="date" id="eventDate" required></label>
+        </div>
+        <label>What are you celebrating?
+          <select id="eventType" required>
+            <option value="">Select an occasion</option>
+            <option>Bridal Makeup</option><option>Reception Makeup</option><option>Engagement Makeup</option>
+            <option>Party Makeup</option><option>HD Makeup</option><option>Airbrush Makeup</option>
+            <option>Pre-wedding Makeup</option><option>Mehendi Makeup</option><option>Other</option>
+          </select>
+        </label>
+        <label>Tell us a little more<textarea id="customerMessage" rows="3" placeholder="Venue, preferred package, number of people, or anything else..."></textarea></label>
+        <button class="button button-dark submit-button" type="submit">Send booking enquiry <span>↗</span></button>
+        <small class="form-privacy">Your details will be used to prepare a WhatsApp enquiry. No payment is collected on this website.</small>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a class="brand footer-brand" href="#top"><span class="brand-mark">KS</span><span class="brand-name">KAVYA SURESH<small>MAKE-UP ARTISTRY</small></span></a>
+    <p>Made with care, for your most beautiful moments.</p>
+    <div class="footer-links"><a href="#services">Services</a><a href="#portfolio">Portfolio</a><a href="#offers">Offers</a><a href="https://www.instagram.com/itskaviyasuresh?cplk=MXRmMjB2eDlmeGV5Mg==" target="_blank" rel="noopener">Instagram ↗</a></div>
+    <small>© <span id="year"></span> Kavya Suresh Make-up Artistry. All rights reserved.</small>
+  </footer>
+
+  <a class="floating-whatsapp" href="https://wa.me/919551780086?text=Hi%20Kavya%2C%20I%27d%20like%20to%20enquire%20about%20makeup%20booking." target="_blank" rel="noopener" aria-label="Chat with Kavya on WhatsApp">✆</a>
+  <script src="offers.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
